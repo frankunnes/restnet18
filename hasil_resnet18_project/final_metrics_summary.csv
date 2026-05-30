@@ -1,0 +1,2 @@
+test_loss,test_accuracy,macro_precision,macro_recall,macro_f1,best_epoch,best_val_loss,training_time_sec,num_parameters
+0.0007013391270605928,1.0,1.0,1.0,1.0,19,0.0004670445590961484,407.07806968688965,11180103

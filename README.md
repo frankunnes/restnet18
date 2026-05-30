@@ -32,5 +32,15 @@ Setelah mencapai metrik yang optimal (*best epoch* dan *best validation loss*), 
 - `resnet18_banknote_complete.pth`: File yang berisi *state dictionary* dari bobot model, arsitektur, resolusi gambar yang digunakan, serta metrik evaluasi model.
 - `final_metrics_summary.csv` & `classification_report.csv`: Berkas log berbentuk tabular yang menyimpan statistik dan metrik performa akhir.
 
+## 7. Menjalankan Deteksi Secara Real-Time (Webcam)
+Anda dapat menguji coba model yang telah dilatih secara langsung (*real-time*) menggunakan kamera (webcam). Pastikan *environment* Conda Anda sudah aktif.
+
+Jalankan perintah berikut pada terminal:
+```bash
+conda activate env_deeplearning
+python webcam_test.py
+```
+Arahkan uang kertas Rupiah ke arah kamera untuk melihat hasil prediksinya. Untuk menghentikan program, cukup tekan tombol `q` pada *keyboard*.
+
 ## Kesimpulan
 Secara keseluruhan, proyek ini bukan hanya melatih model *deep learning* biasa, namun telah mencakup alur standar *machine learning engineering* mulai dari persiapan data, pelatihan, evaluasi mendalam per kelas (*confusion matrix*), analisis kegagalan klasifikasi, hingga pengeksporan model siap pakai.
